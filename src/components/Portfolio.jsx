@@ -31,13 +31,14 @@ const Portfolio = () => {
     {
       id: 4,
       src: todo,
-      demoLink: "https://todo-fawn-eta-68.vercel.app/",
+      demoLink: "",
+
       codeLink: "https://github.com/sntripathi180/Todo",
     },
     {
       id: 5,
       src: passwordGenerator,
-      demoLink: "https://password-generator-navy-phi-10.vercel.app/",
+      demoLink: "",
       codeLink: "https://github.com/sntripathi180/password_generator",
     },
     {
