@@ -4,6 +4,8 @@ import project1 from "../assets/portfolio/project1.png";
 import project2 from "../assets/portfolio/project2.png";
 import project3 from "../assets/portfolio/project3.png";
 import currencyConvertor from "../assets/portfolio/currencyConvertor.png";
+import ewallet from "../assets/portfolio/e-wallet.png";
+import ticTacToe from "../assets/portfolio/tic-tac-toe.png";
 import passwordGenerator from "../assets/portfolio/passwordGenerator.png";
 import typingTester from "../assets/portfolio/typingTester.png";
 import todo from "../assets/portfolio/todo.png";
@@ -30,22 +32,37 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      src: ewallet,
+      demoLink: "",
+
+      codeLink: "https://github.com/sntripathi180/e-Wallet",
+    },
+    {
+      id: 5,
       src: todo,
       demoLink: "",
 
       codeLink: "https://github.com/sntripathi180/Todo",
     },
     {
-      id: 5,
-      src: passwordGenerator,
-      demoLink: "",
-      codeLink: "https://github.com/sntripathi180/password_generator",
-    },
-    {
       id: 6,
+      src: ticTacToe,
+      demoLink: "",
+
+      codeLink: "https://github.com/sntripathi180/tic-tac-toe",
+    },
+    
+    {
+      id: 7,
       src: typingTester,
       demoLink: "",
       codeLink: "https://github.com/sntripathi180/typing-test-website",
+    },
+    {
+      id: 8,
+      src: passwordGenerator,
+      demoLink: "",
+      codeLink: "https://github.com/sntripathi180/password_generator",
     },
   ];
 
