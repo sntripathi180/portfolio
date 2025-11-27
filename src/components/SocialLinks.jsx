@@ -42,9 +42,9 @@ const links = [
             Resume
             <BsFillPersonLinesFill size={30}/>
             </>
-        ),href:'/sacchidanand_resume.pdf',
+        ),href:'/sacchidanand_resume_2026.pdf',
         style:'rounded-br-md',
-        download: 'sacchidanand_resume.pdf',
+        download: 'sacchidanand_resume_2026.pdf',
     },
 ]
 

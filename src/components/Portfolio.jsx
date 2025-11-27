@@ -9,9 +9,51 @@ import ticTacToe from "../assets/portfolio/tic-tac-toe.png";
 import passwordGenerator from "../assets/portfolio/passwordGenerator.png";
 import typingTester from "../assets/portfolio/typingTester.png";
 import todo from "../assets/portfolio/todo.png";
+import oneSource from "../assets/portfolio/Onesource Financial.png"
+import oneSourceAdmin from "../assets/portfolio/oneSourceAdmin.png"
+import prescripto from "../assets/portfolio/prescripto.png"
+import prescriptoAdmin from "../assets/portfolio/prescriptoAdmin.png"
+import marcaids from "../assets/portfolio/marcaids.png"
+import devscribe from "../assets/portfolio/devscribe.png"
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 13,
+      src: marcaids,
+      demoLink: "https://www.marcaids.com/",
+      codeLink: "https://github.com/sntripathi180/marcaids-frontend",
+    },
+    {
+      id: 10,
+      src: oneSourceAdmin,
+      demoLink: "https://admin.onesourcefinancial.co.nz/",
+      codeLink: "https://github.com/sntripathi180/oneSource",
+    },
+     {
+      id: 9,
+      src: oneSource,
+      demoLink: "https://www.onesourcefinancial.co.nz/",
+      codeLink: "https://github.com/sntripathi180/oneSource",
+    },
+     {
+      id: 11,
+      src: prescripto,
+      demoLink: "https://hms-frontend-ndpu.onrender.com",
+      codeLink: "https://github.com/sntripathi180/MediMeet",
+    },
+    {
+      id: 12,
+      src: prescriptoAdmin,
+      demoLink: "https://hms-admin-i1tc.onrender.com",
+      codeLink: "https://github.com/sntripathi180/MediMeet",
+    },
+    {
+      id: 14,
+      src: devscribe,
+      demoLink: "https://devscribe-bxtb.onrender.com",
+      codeLink: "https://github.com/sntripathi180/DevScribe-frontend",
+    },
     {
       id: 1,
       src: project1,
@@ -40,7 +82,7 @@ const Portfolio = () => {
     {
       id: 5,
       src: todo,
-      demoLink: "",
+      demoLink: "https://todo-fawn-eta-68.vercel.app/",
 
       codeLink: "https://github.com/sntripathi180/Todo",
     },
