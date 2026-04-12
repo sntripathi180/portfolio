@@ -15,9 +15,16 @@ import prescripto from "../assets/portfolio/prescripto.png"
 import prescriptoAdmin from "../assets/portfolio/prescriptoAdmin.png"
 import marcaids from "../assets/portfolio/marcaids.png"
 import devscribe from "../assets/portfolio/devscribe.png"
+import society from "../assets/portfolio/society-management.png"
 
 const Portfolio = () => {
   const portfolios = [
+     {
+      id: 15,
+      src: society,
+     
+      codeLink: "https://github.com/sntripathi180/Society-Management",
+    },
     {
       id: 13,
       src: marcaids,
