@@ -34,7 +34,8 @@ const Portfolio = () => {
     {
       id: 10,
       src: oneSourceAdmin,
-      demoLink: "https://admin.onesourcefinancial.co.nz/",
+      
+      // demoLink: "https://admin.onesourcefinancial.co.nz/",
       codeLink: "https://github.com/sntripathi180/oneSource",
     },
      {
